@@ -16,7 +16,7 @@
 
 <body>
     <div id="responsive">
-        <div id="header">
+        <header id="header">
             <div class="logo">Jeevesh Tewatia</div>
             <input type="checkbox" id="openSidebarMenu">
             <label for="openSidebarMenu" class="sidebarIconToggle">
@@ -26,22 +26,24 @@
             </label>
             <div id="sidebarMenu">
                 <ul class="menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="">Resume</a></li>
-                    <li><a href="">Contact</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about-Me">About</a></li>
+                    <li><a href="#portfoliome">Portfolio</a></li>
+                    <li><a href="#resumeme">Resume</a></li>
+                    <li><a href="#contact-us">Contact</a></li>
                 </ul>
             </div>
-        </div>
+        </header>
         <div id="banner">
             <div class="left-side">
                 <div class="head-dev">
                     <h1>Hi, I am Jeevesh Tewatia</h1>
-                    <span class="fron-end-dev">A Front-End Developer</span>
+                    <span class="fron-end-dev">A Full Stack Web Developer</span>
                     <p>Get ready to turn ideas into reality</p>
-                    <input type="submit" class="btn1" value="Hire Me">
-                    <input type="submit" class="btn2" value="Get Resume">
+                    <a href="#contact-us">
+                        <input type="submit" class="btn1" value="Hire Me">
+                    </a>
+                    <a href="JeeveshResume.pdf" download><button class="btn2">Get Resume</button></a>
                 </div>
             </div>
             <div class="right-side">
@@ -76,12 +78,11 @@
             </div>
             <div class="abt-right">
                 <span class="pp">About Me</span>
-                <p>I'm Web Developer & Full-Stack Developer with 2 years of Professional Experience. I'm intrested in
+                <p>I'm Full-Stack Web Developer . I'm intrested in
                     all kinds of visual communication, but my major focus on development part and designing in Web ,
-                    Mobile & tablets interfaces. I also have skills in other fields like branding, icon dessign and Web
-                    development.</p>
-                <p>I enjoy turning complex problems into simple, beautifull and intuitive designs. when I'm not pushing
-                    pixels, you'll Find me cooking, gardening or working out in the park.</p>
+                    Mobile & tablets interfaces.</p>
+                <p>I enjoy turning complex problems into simple, beautiful and intuitive designs. when I'm not pushing
+                    pixels, you'll Find me gardening or working out in the park.</p>
                 <div class="road-map">
                     <h4>Languages/Library/Technology</h4>
                     <div class="boxx">
@@ -98,65 +99,100 @@
         </div>
 
         <!-- <!-My Portfolio -------------------------------------------->
+        <section id="portfoliome">
 
-        <div class="Mpp">My Portfolio</div>
-        <div id="portfolio">
-            <div class="items item1"><img src="img/img-1/img-1.png" width="100%" alt=""></div>
-            <div class="items item2"><img src="img/img-2/img-2.png" width="100%" alt=""></div>
-            <div class="items item3"><img src="img/img-3/img-3.png" width="100%" alt=""></div>
-            <div class="items item4"><img src="img/img-4/img-4.png" width="100%" alt=""></div>
-            <div class="items item5"><img src="img/img-5/img-5.png" width="100%" alt=""></div>
-            <div class="items item6"><img src="img/img-6/img-6.png" width="100%" alt=""></div>
-        </div>
+            <div class="Mpp">My Portfolio</div>
+            <div id="portfolio">
+                <div class="items item1">
+                    <a href="https://jeeveshtewatia.github.io/Digital-Clock-JsProject/"><img
+                            src="img/img-1/DigitalClock.png" alt="">
+                    </a>
+                </div>
+                <div class="items item2">
+                    <a href="https://jeeveshtewatia.github.io/TodoApp-JsProject/">
+                        <img src="img/img-2/ToDoJs.png" alt="">
+                    </a>
+                </div>
+                <div class="items item3">
+                    <a href="https://jeeveshtewatia-reactblog.netlify.app/">
+
+                        <img src="img/img-3/ReactBlog.png" alt="">
+                </div>
+                </a>
+                <div class="items item4">
+                    <a href="https://jeevesh-text-utils-react.netlify.app/">
+                        <img src="img/img-4/TeaxtUtils.png" alt="">
+                </div>
+                </a>
+                <div class="items item5">
+                    <a href="https://jeeveshtewatia.github.io/Todo-List-Add-Dlt/">
+                        <img src="img/img-5/TodoList.png" alt="">
+                    </a>
+                </div>
+                <div class="items item6">
+                    <a href="https://jeeveshtewatia.github.io/Input-Taking-Album/">
+                        <img src="img/img-6/Album.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
 
         <!-- <!-MyResume -------------------------------------------->
+        <section id="resumeme">
 
-        <div class="Mpp">Resume</div>
+            <div class="Mpp">Resume</div>
 
-        <div id="resume">
-            <div class="resume-left">
-                <h2>Work Experience</h2>
-                <hr>
-                <div class="sr-dev">
-                    <div class="round"></div>
-                    <div class="sr-dev-text">Senior Fron-End Developer - FULLTIME
-                        <input type="button" class="year-btn" value="2022-2023">
-                        <p>Facebook,Inc.</p>
+            <div id="resume">
+                <div class="resume-left">
+                    <h2>Education</h2>
+                    <hr>
+                    <div class="sr-dev">
+                        <div class="round"></div>
+                        <div class="sr-dev-text">Bachelor of Technology
+                            <input type="button" class="year-btn" value="2016-2020">
+                            <p>Aravali College of Engineering and Management</p>
+                            <p>Mechanical Engineering</p>
+                            <p>62%</p>
+                        </div>
+                        <div class="v-line"></div>
+
+                        <div class="round"></div>
+                        <div class="sr-dev-text">Intermediate
+                            <input type="button" class="year-btn" value="2015-2016">
+                            <p>SND Public School </p>
+                            <p>Stream-PCM </p>
+                            <p>80% </p>
+                        </div>
+                        <!-- <div class="v-line"></div> -->
+
+                        <div class="round"></div>
+                        <div class="sr-dev-text">High School
+                            <input type="button" class="year-btn" value="2013-2014">
+                            <p>Green Wood Convent School</p>
+                            <p>10 CGPA</p>
+                        </div>
+                        <!-- <div class="v-line"></div> -->
                     </div>
-                    <div class="v-line"></div>
 
-                    <div class="round"></div>
-                    <div class="sr-dev-text">Senior Fron-End Developer - FULLTIME
-                        <input type="button" class="year-btn" value="2022-2023">
-                        <p>Facebook,Inc.</p>
-                    </div>
-                    <div class="v-line"></div>
                 </div>
-                <h2>Education</h2>
-                <hr>
-                <div class="sr-dev">
-                    <div class="round"></div>
-                    <div class="sr-dev-text">Senior Fron-End Developer - FULLTIME
-                        <input type="button" class="year-btn" value="2022-2023">
-                        <p>Facebook,Inc.</p>
+                <div class="resume-right">
+                    <div class="innerbox">
+                        <img src="img/banner-guy/banner-guy.png" width="120%" height="100%" alt="">
                     </div>
-                    <div class="v-line" style="height: 90px; top: 43%;"></div>
+                    <div class="innerbox-second">
+
+                        <div class="items2"><a href="https://github.com/jeeveshtewatia"><i
+                                    class="fa-brands fa-github fa-3x"></i></a></div>
+                        <div class="items2"><a href="https://www.linkedin.com/in/jeevesh-tewatia-762b74175/"><i
+                                    class="fa-brands fa-linkedin fa-3x"></i></a></div>
+                        <div class="items2"><a href=""><i class="fa-brands fa-twitter fa-3x"></i></a></div>
+                        <div class="items2"><a href=""><i class="fa-solid fa-envelope fa-3x"></i></a></div>
+
+                        <!-- <div class="items"><img src="img/innderbox-second/" alt=""></div> -->
+                    </div>
                 </div>
             </div>
-            <div class="resume-right">
-                <div class="innerbox">
-                    <img src="img/banner-guy/banner-guy.png" width="120%" height="100%" alt="">
-                </div>
-                <div class="innerbox-second">
-                    <div class="items2"><img src="img/innderbox-second/skype/skype.png" alt=""></div>
-                    <div class="items2"><img src="img/innderbox-second/behance/behance.png" alt=""></div>
-                    <div class="items2"><img src="img/innderbox-second/pinterest/pinterest.png" alt=""></div>
-                    <div class="items2"><img src="img/innderbox-second/skype/skype.png" alt=""></div>
-                    <div class="items2"><img src="img/innderbox-second/dribbble/dribbble.png" alt=""></div>
-                    <!-- <div class="items"><img src="img/innderbox-second/" alt=""></div> -->
-                </div>
-            </div>
-        </div>
+        </section>
 
         <!-- <!-WHAT PEOPLE SAY ABOUT MEE -------------------------------------------->
 
@@ -165,26 +201,24 @@
         <div id="about-Me" class="testimonial">
             <div class="card">
                 <img src="img/Tenstimonials/testimonial-img1.png" alt="">
-                <h3>Anju Tewatia</h3>
-                <p>SaveSpace Inc.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora nam impedit nesciunt autem quis
-                    voluptatum. Ducimus facere commodi consequatur quae?</p>
+                <h3>Pallavi Varshney</h3>
+                <p>Oracle</p>
+                <p>He is hard-working career oriented and have a good knowledge of front-end techniques.He spend more
+                    time on fixing little details and optimizing apps.</p>
             </div>
             <div class="card">
                 <img src="img/Tenstimonials/testimonial-img2.png" alt="">
                 <h3>Akash Meena</h3>
-                <p>ScreenApp Inc.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora nam impedit nesciunt autem quis
-                    voluptatum.
-                    Ducimus facere commodi consequatur quae?</p>
+                <p>Srijan</p>
+                <p>He is dedicated person hard-worker career oriented soft-spoken time-worthy motivated towards his
+                    career.He is curious to learn new things</p>
             </div>
             <div class="card">
                 <img src="img/Tenstimonials/img-3 (1).png" width="60%" style="border-radius:50%;" alt="">
-                <h3>SAIRAAM</h3>
+                <h3>SAIRAM</h3>
                 <p>My Travel.com Inc.</p>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora nam impedit nesciunt autem quis
-                    voluptatum.
-                    Ducimus facere commodi consequatur quae?</p>
+                <p>He enjoy taking complex problems and turing into more simpler form.He loves the logics and
+                    structure od coding and always strive to write elegant and efficient code.</p>
             </div>
             <div class="view-more-testimonial">
                 <h1 align="center">View More Testimonial</h1>
@@ -195,16 +229,16 @@
 
         <div class="Mpp">Contact Me</div>
 
-        <div id="contact-us">
+        <section id="contact-us">
             <div class="contact-left">
                 <h3>Let's Connect</h3>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio praesentium officiis facilis
                     laudantium unde ipsam temporibus maxime laboriosam vel ab! Lorem ipsum dolor sit amet consectetur
                     adipisicing elit. Iure necessitatibus quidem soluta explicabo illo reprehenderit cumque repellendus
                     tempore. Repudiandae, iusto.</p><br><br>
-                <img src="img/contact/email/email.png" alt=""> info@mysite.com <br><br>
-                <img src="img/contact/phone (1)/phone (1).png" alt=""> +(91)122-345-769 <br><br>
-                <img src="img/contact/marker/marker.png" alt=""> PREPBYTES Sector 66,Gurugram,Haryana
+                <img src="img/contact/email/email.png" alt=""> jeeveshtewatia2@gmail.com <br><br>
+                <img src="img/contact/phone (1)/phone (1).png" alt=""> +(91)9991730421 <br><br>
+                <img src="img/contact/marker/marker.png" alt=""> Palwal,Haryana
             </div>
             <div class="contact-right">
                 <h3>Send Me a message</h3>
@@ -220,7 +254,7 @@
                 <label for="name">Messages<span style="color:red;">*</span></label>
                 <textarea name="" class="inpp" id="" cols="30" rows="4" placeholder="Anything Wanna Say!!!"></textarea>
             </div>
-        </div>
+        </section>
         <div id="footer">©️ Jeevesh Tewatia. All rights reserved</div>
     </div>
 </body>
